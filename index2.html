@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VirtualCard</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main class="boxParent">
+        
+            <div class="cards" >
+                
+                <div class="cardFront">
+                    <div>
+                    <input type="text" maxlength="25" size="25" placeholder="0000 0000 0000 0000" class="frontHolder" readonly="readonly">
+                    <input type="text" maxlength="4" size="4" placeholder="00/00" class="monthHolder" readonly="readonly">
+                    <input type="text" maxlength="25" size="20" placeholder="JANE APPLESEED" class="nameHolder" readonly="readonly">
+                    <img src="./images/bg-card-front.png">
+                    </div>
+                </div>
+
+                <div class="cardBack">
+                    <div>
+                        <input type="text" maxlength="4" size="4" placeholder="000" class="cvc" readonly="readonly">
+                        <img src="./images/bg-card-back.png">
+                    </div>
+                </div>
+            </div>
+        
+        <main class="boxes">
+            <div>
+                <div class="firstBox">
+                    <img class="siteImage" src="./images/bg-main-desktop.png">
+                </div>
+            </div>
+            <div class="secondBox"> 
+                <div style="display: grid; gap: 20px; justify-items: center;" >
+                    <div> <img src="./images/icon-complete.svg" alt=""></div>
+                    <div style="font-size:large;"> THANK YOU!</div>
+                    <div style="font-size: small; color: hsl(279, 6%, 55%);"> We've added your card details</div>
+                    <div> <button style="width: 100%; padding: 10px 100px"> Continue</button></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+    </main>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Akinola Habib</a>.
+      </div>
+</body>
+</html>
